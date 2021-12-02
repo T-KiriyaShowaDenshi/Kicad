@@ -859,22 +859,11 @@ Text Label 2350 2050 0    50   ~ 0
 Text Notes 5000 2150 0    50   ~ 0
 address:0x68
 NoConn ~ 10550 2000
-$Comp
-L kicad_LCD_add:aki_PCA9306 U2
-U 1 1 61963033
-P 6700 5150
-F 0 "U2" H 6725 5375 50  0000 C CNN
-F 1 "AE-PCA9306" H 6725 5284 50  0000 C CNN
-F 2 "kicad_add:ic_DIP-8_W7.62mm" H 6350 5150 50  0001 C CNN
-F 3 "" H 6350 5150 50  0001 C CNN
-	1    6700 5150
-	1    0    0    -1  
-$EndComp
-Text Notes 5000 5150 0    50   ~ 0
+Text Notes 4550 5150 0    50   ~ 0
 address:0x3e
-Text Label 5500 5350 2    60   ~ 0
+Text Label 5050 5350 2    60   ~ 0
 A4(SDA)
-Text Label 5500 5250 2    60   ~ 0
+Text Label 5050 5250 2    60   ~ 0
 A5(SCL)
 $Comp
 L power:+5V #PWR0101
@@ -933,7 +922,6 @@ Wire Wire Line
 	6350 5150 6200 5150
 Wire Wire Line
 	6200 5150 6200 4450
-NoConn ~ 6350 5450
 Wire Wire Line
 	6350 5250 5700 5250
 Wire Wire Line
@@ -951,8 +939,6 @@ F 3 "" H 7100 5850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 5450 7100 5850
-Text Notes 6400 5600 0    50   ~ 0
-J1,J2,J3,J4:Open
 Text Label 2850 4000 2    50   ~ 0
 2
 $Comp
@@ -1179,11 +1165,42 @@ Wire Wire Line
 	5950 4450 6200 4450
 Connection ~ 5700 5250
 Wire Wire Line
-	5700 5250 5500 5250
+	5700 5250 5050 5250
 Connection ~ 5950 5350
-Wire Wire Line
-	5950 5350 5500 5350
 Connection ~ 6200 4450
 Wire Wire Line
 	6200 4450 6200 4300
+$Comp
+L kicad_LCD_add:AE-FXMA2102 U2
+U 1 1 61ACB02B
+P 6700 5150
+F 0 "U2" H 6725 5375 50  0000 C CNN
+F 1 "AE-FXMA2102" H 6725 5284 50  0000 C CNN
+F 2 "kicad_add:ic_DIP-8_W7.62mm" H 6350 5150 50  0001 C CNN
+F 3 "" H 6350 5150 50  0001 C CNN
+	1    6700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 61ADD093
+P 5450 4900
+F 0 "R17" H 5520 4946 50  0000 L CNN
+F 1 "10k" H 5520 4855 50  0000 L CNN
+F 2 "kicad_arduino_LCD:1608" V 5380 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4750 5450 4450
+Wire Wire Line
+	6350 5450 5450 5450
+Wire Wire Line
+	5450 5050 5450 5450
+Wire Wire Line
+	5050 5350 5950 5350
+Wire Wire Line
+	5450 4450 5700 4450
+Connection ~ 5700 4450
 $EndSCHEMATC
