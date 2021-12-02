@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
@@ -2817,7 +2817,7 @@
   (segment (start 152.8786 83.9629) (end 149.3986 87.4429) (width 1) (layer F.Cu) (net 47))
   (segment (start 152.8786 80.4579) (end 152.8786 83.9629) (width 1) (layer F.Cu) (net 47))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 61A6F7DC) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 61A78043) (hatch edge 0.508)
     (connect_pads (clearance 0.6))
     (min_thickness 0.3)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3221,7 +3221,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61A6F7D9) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61A78040) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
