@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name kicad_arduino_LCD-rescue)(type Legacy)(uri ${KIPRJMOD}/kicad_arduino_LCD-rescue.lib)(options "")(descr ""))
+  (lib (name Kicad_arduino_LCD)(type Legacy)(uri ${KIPRJMOD}/Kicad_arduino_LCD.lib)(options "")(descr ""))
+  (lib (name kicad_LCD_add)(type Legacy)(uri ${KIPRJMOD}/kicad_LCD_add.lib)(options "")(descr ""))
+)

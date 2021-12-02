@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\kicad\kicad_arduino_LCD\kicad_arduino_LCD\kicad_arduino_LCD.sch</source>
+    <date>2021/11/29 11:59:12</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>lun. 30 mars 2015</date>
+        <source>kicad_arduino_LCD.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6187214F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618743FC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618751BF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188DA9C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189051A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618916BF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DS1307+</value>
+      <footprint>kicad_add:ic_DIP-8_W7.62mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</datasheet>
+      <libsource lib="Timer_RTC" part="DS1307+" description="64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C87A0</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>VT-200-F 32.768kHz</value>
+      <footprint>Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E8591</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618F38DE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61902947</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61921D0D</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_Dual_x2</value>
+      <footprint>kicad_arduino_LCD:TactSwitch</footprint>
+      <libsource lib="Switch" part="SW_Push_Dual_x2" description="Push button switch, generic, separate symbols, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61887822</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712DB</tstamp>
+    </comp>
+    <comp ref="LCD1">
+      <value>AQM0802A-RN-GBW</value>
+      <footprint>kicad_add:lcd_AQM0802A-RN-GBW</footprint>
+      <libsource lib="kicad_arduino_LCD-rescue" part="AQM0802A-RN-GBW-LCD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F27B</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D721E0</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7164F</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712A8</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71274</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71177</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70DD8</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70129</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push_Dual_x2</value>
+      <footprint>kicad_arduino_LCD:TactSwitch</footprint>
+      <libsource lib="Switch" part="SW_Push_Dual_x2" description="Push button switch, generic, separate symbols, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A1C07</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push_Dual_x2</value>
+      <footprint>kicad_arduino_LCD:TactSwitch</footprint>
+      <libsource lib="Switch" part="SW_Push_Dual_x2" description="Push button switch, generic, separate symbols, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A6371</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED(RED)</value>
+      <footprint>kicad_arduino_LCD:LED_5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619CB86A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619CF6DD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AE-PCA9306</value>
+      <footprint>kicad_add:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="kicad_LCD_add" part="aki_PCA9306" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61963033</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A0DAEA</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A2629D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A05508</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_Dual_x2</value>
+      <footprint>kicad_arduino_LCD:TactSwitch</footprint>
+      <libsource lib="Switch" part="SW_Push_Dual_x2" description="Push button switch, generic, separate symbols, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D779A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619E5C98</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A5E868</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A863C3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A9D7C4</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>kicad_arduino_LCD:1608</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AA28B7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_Dual_x2">
+      <description>Push button switch, generic, separate symbols, four pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_Dual_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer_RTC" part="DS1307+">
+      <aliases>
+        <alias>DS1307N+</alias>
+      </aliases>
+      <description>64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS1307+</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="SQW/OUT" type="openCol"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad_LCD_add" part="aki_PCA9306">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">aki_PCA9306</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF1" type="passive"/>
+        <pin num="2" name="SCL1" type="passive"/>
+        <pin num="3" name="SDA1" type="passive"/>
+        <pin num="4" name="VPU" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SDA2" type="passive"/>
+        <pin num="7" name="SCL2" type="passive"/>
+        <pin num="8" name="VREF2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad_arduino_LCD-rescue" part="AQM0802A-RN-GBW-LCD">
+      <fields>
+        <field name="Reference">LCD</field>
+        <field name="Value">AQM0802A-RN-GBW-LCD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="output"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="CAPIN" type="passive"/>
+        <pin num="4" name="CAPIP" type="passive"/>
+        <pin num="5" name="VDD" type="passive"/>
+        <pin num="6" name="VSS" type="passive"/>
+        <pin num="7" name="SDA" type="BiDi"/>
+        <pin num="8" name="SCL" type="BiDi"/>
+        <pin num="9" name="XRESETB" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Timer_RTC">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Timer_RTC.lib</uri>
+    </library>
+    <library logical="kicad_LCD_add">
+      <uri>C:\kicad\kicad_arduino_LCD\kicad_arduino_LCD/kicad_LCD_add.lib</uri>
+    </library>
+    <library logical="kicad_arduino_LCD-rescue">
+      <uri>C:\kicad\kicad_arduino_LCD\kicad_arduino_LCD/kicad_arduino_LCD-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="LCD1" pin="6"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R14" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="P1" pin="4"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="LCD1" pin="5"/>
+    </net>
+    <net code="4" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R9-Pad2)">
+      <node ref="SW3" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="7" name="/4">
+      <node ref="P4" pin="4"/>
+      <node ref="R13" pin="2"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="8" name="/A5">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="9" name="/A4">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="10" name="/A3">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="11" name="/A2">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="12" name="/A1">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="13" name="/A0">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="15" name="/0(Rx)">
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="16" name="/1(Tx)">
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="17" name="/AREF">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="18" name="/3(**)">
+      <node ref="P4" pin="5"/>
+      <node ref="R12" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="19" name="/7">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="20" name="/10(**/SS)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="21" name="/11(**/MOSI)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="22" name="/12(MISO)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="23" name="/13(SCK)">
+      <node ref="R6" pin="2"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="24" name="/A4(SDA)">
+      <node ref="P3" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="25" name="/Vin">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="26" name="+5V">
+      <node ref="U1" pin="8"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="P1" pin="5"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="27" name="/Reset">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="28" name="/IOREF">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(R7-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="30" name="/5(**)">
+      <node ref="R14" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="32" name="/9(**)">
+      <node ref="P3" pin="9"/>
+    </net>
+    <net code="33" name="/6(**)">
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="34" name="/2">
+      <node ref="R11" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="35" name="/8">
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="36" name="Net-(R8-Pad1)">
+      <node ref="SW2" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="41" name="Net-(LCD1-Pad7)">
+      <node ref="LCD1" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="42" name="Net-(LCD1-Pad8)">
+      <node ref="LCD1" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="43" name="Net-(LCD1-Pad9)">
+      <node ref="LCD1" pin="9"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C2-Pad2)">
+      <node ref="LCD1" pin="4"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="LCD1" pin="3"/>
+    </net>
+    <net code="46" name="/A5(SCL)">
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="47" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="LCD1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(LCD1-Pad1)">
+      <node ref="LCD1" pin="1"/>
+    </net>
+  </nets>
+</export>
